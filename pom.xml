@@ -6,7 +6,7 @@
 
   <groupId>me.d1n3x3z7</groupId>
   <artifactId>FSIP_MCPlugin</artifactId>
-  <version>1.0-BUILD</version>
+  <version>1.1-BUILD</version>
   <packaging>jar</packaging>
 
   <name>FSIP_MCPlugin</name>

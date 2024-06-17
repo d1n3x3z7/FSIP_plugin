@@ -1,6 +1,7 @@
 package me.d1n3x3z7.fsip_mcplugin;
 
 import org.bukkit.Bukkit;
+import org.bukkit.ChatColor;
 import org.bukkit.Server;
 import org.bukkit.event.Listener;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -15,6 +16,10 @@ public final class FSIP_MCPlugin extends JavaPlugin implements Listener {
         Bukkit.getLogger().info(l);
     }
 
+    public static void nprint(String l) {
+        Bukkit.getConsoleSender().sendMessage(l);
+    }
+
     @Override
     public void onEnable() {
         // get port
@@ -25,11 +30,11 @@ public final class FSIP_MCPlugin extends JavaPlugin implements Listener {
         try {
             manager.open();
             while (manager.getConnect() == null) {cprint("Waiting connection...");}
-            cprint("==========================================");
-            cprint("------ FSIP STARTED ----- SUCCESS --------");
-            cprint("DOMAIN ADDRESS: " + manager.getConnect());
-            cprint("--------------- XYZ1.RU ------------------");
-            cprint("==========================================");
+            nprint(ChatColor.DARK_GREEN+"  |==========================================|");
+            nprint(ChatColor.DARK_GREEN+"  |------ FSIP STARTED ----- SUCCESS --------|");
+            nprint(ChatColor.GREEN+"       ADDRESS: " + ChatColor.DARK_PURPLE + ">>> " + manager.getConnect() + " <<<");
+            nprint(ChatColor.DARK_GREEN+"  |---------------- XYZ1.RU -----------------|");
+            nprint(ChatColor.DARK_GREEN+"  |==========================================|");
         } catch (IOException e) {
             cprint(String.valueOf(e));
         }
