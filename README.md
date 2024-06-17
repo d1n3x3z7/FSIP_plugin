@@ -37,4 +37,4 @@ console and chat output
 
 - [serveo.net](https://serveo.net/) (SSH server)
 - [xyz1.ru](https://xyz1.ru) (sponsor)
-
+- [discord](https://discord.gg/fDBNJUnvWX)
