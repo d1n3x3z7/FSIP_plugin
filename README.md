@@ -1,12 +1,12 @@
 
 # FSIP Minecraft Bukkit Plugin
 
-## A plugin that allows you to open the server to others without a static IP address
+ A plugin that allows you to open the server to others without a static IP address
 
 
 # How it works?
 
-## The plugin uses SSH to forward ports to the server. The SSH server provider is serveo.net
+ The plugin uses SSH to forward ports to the server. The SSH server provider is serveo.net
 ## Commands
 
 #### Open connection (opens automatically when the server is started)
