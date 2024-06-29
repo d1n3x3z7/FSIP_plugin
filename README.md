@@ -1,3 +1,6 @@
+# WARNING
+
+Perhaps the tunneling provider has blocked access completely or only partially in some countries.
 
 # FSIP Minecraft Bukkit Plugin
 
