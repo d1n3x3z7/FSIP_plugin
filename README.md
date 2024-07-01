@@ -1,6 +1,6 @@
 # WARNING
 
-Perhaps the tunneling provider has blocked access completely or only partially in some countries. The repository is marked as outdated till update.
+Perhaps the tunneling provider has blocked access completely or only partially in some countries. The repository is marked as outdated.
 
 # FSIP Minecraft Bukkit Plugin
 
