@@ -1,7 +1,3 @@
-# WARNING
-
-Perhaps the tunneling provider has blocked access completely or only partially in some countries. The repository is marked as outdated.
-
 # FSIP Minecraft Bukkit Plugin
 
  A plugin that allows you to open the server to others without a static IP address
