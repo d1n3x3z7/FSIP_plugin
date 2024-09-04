@@ -34,6 +34,7 @@ console and chat output
 
 ## Related
 
-- [serveo.net](https://serveo.net/) (SSH server)
-- [xyz1.ru](https://xyz1.ru) (sponsor)
-- [discord](https://discord.gg/fDBNJUnvWX)
+- [serveo.net](https://serveo.net/) (SSH tunnel provider)
+- [XYZone Vanilla](https://xyz1.ru) (sponsor)
+- [NorthenLand Anarchy](https://nland.su) (sponsor)
+- [Currently empty discord](https://discord.gg/fDBNJUnvWX)
